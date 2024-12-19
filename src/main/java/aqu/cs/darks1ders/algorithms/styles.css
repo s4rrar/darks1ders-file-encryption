@@ -1,0 +1,67 @@
+.root {
+    -fx-background-color: #2f2f2f;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.modern-container {
+    -fx-background-color: #3a3a3a;
+    -fx-background-radius: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+.label-header {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ecf0f1;
+}
+
+.text-field-modern {
+    -fx-background-color: #444444;
+    -fx-background-radius: 5;
+    -fx-border-width: 0;
+    -fx-padding: 8;
+    -fx-text-fill: #ecf0f1;
+}
+
+.text-field-modern:focused {
+    -fx-background-color: #333333;
+}
+
+.button-modern {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+}
+
+.button-modern:hover {
+    -fx-background-color: #0056b3;
+}
+
+.status-label {
+    -fx-text-fill: #007bff;
+    -fx-font-size: 14px;
+}
+
+.menu-bar {
+    -fx-background-color: #333333;
+}
+
+.menu-bar .label {
+    -fx-text-fill: black;
+}
+
+.menu-item {
+    -fx-padding: 5 10;
+    -fx-text-fill: black;
+}
+
+.menu-item:focused {
+    -fx-background-color: #007bff;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
